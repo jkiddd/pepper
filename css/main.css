@@ -443,6 +443,7 @@ ul {
 
 .header__top {
   margin-bottom: 78px;
+  margin-top: 22px;
 }
 
 .header__top-logo {
@@ -462,11 +463,14 @@ ul {
 
 .header__bottom-left {
   position: relative;
+  margin-left: 30px;
 }
 
 .price {
   position: absolute;
   width: 250px;
+  left: 2px;
+  top: 60px;
 }
 
 .price__title, .price__product {
@@ -487,12 +491,9 @@ ul {
   max-height: 100%;
 }
 
-.header__rigth {
-  background: url("/img/foto/bagroud/nav-bg.jpg") 0 no-repeat;
-}
-
 .header__bottom-rigth {
   margin-right: 56px;
+  margin-left: 45px;
 }
 
 .avatar {
@@ -506,6 +507,7 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 39px;
 }
 
 .avatar__inner {
@@ -541,5 +543,9 @@ ul {
   font-family: 'robotothin',Tohoma, sans-serif;
   font-weight: 400;
   line-height: 58.94px;
+}
+
+.header__rigth {
+  background: url("/img/foto/bagroud/nav-bg.jpg") 0 no-repeat;
 }
 /*# sourceMappingURL=main.css.map */
