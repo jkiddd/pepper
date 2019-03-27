@@ -17,7 +17,7 @@ html,body {
     width: 100%;
 }
 body {
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1.42;
 	-webkit-font-smoothing: antialiased;
 	// background: $body-color;    
@@ -42,10 +42,10 @@ ul {
 
 .wrapper {
     overflow: hidden;
-    // min-width: $conteiner-min-width+20px;
+    min-width: $conteiner-min-width+20px;
     min-height: 100%;
 }
-
+// для статической верстки
 .wrapper:after{
     content: "";
     display: block;
@@ -62,5 +62,6 @@ ul {
 background-color: $footer-color;
 height: $footer-heigth;
 margin-top: -$footer-heigth;
-// min-width: $conteiner-min-width+20px;
+min-width: $conteiner-min-width+20px;
 }
+

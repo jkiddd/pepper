@@ -343,7 +343,7 @@ template {
 
 @font-face {
   font-family: 'robotothin';
-  src: url("../../fonts/roboto_thin-webfont.woff2") format("woff2"), url("../../fonts/roboto-light-webfont.woff") format("woff");
+  src: url("../../fonts/roboto-thin-webfont.woff2") format("woff2"), url("../../fonts/roboto-thin-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: optional;
@@ -391,7 +391,7 @@ html, body {
 }
 
 body {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.42;
   -webkit-font-smoothing: antialiased;
   font-family: 'robotothin',Tohoma, sans-serif;
@@ -414,6 +414,7 @@ ul {
 
 .wrapper {
   overflow: hidden;
+  min-width: 1480px;
   min-height: 100%;
 }
 
@@ -427,5 +428,118 @@ ul {
   background-color: #1a1918;
   height: 345px;
   margin-top: -345px;
+  min-width: 1480px;
+}
+
+.header {
+  background-color: #e9eae2;
+}
+
+.header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__top {
+  margin-bottom: 78px;
+}
+
+.header__top-logo {
+  width: 48px;
+  height: 48px;
+}
+
+.logo {
+  max-width: 100%;
+}
+
+.header__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__bottom-left {
+  position: relative;
+}
+
+.price {
+  position: absolute;
+  width: 250px;
+}
+
+.price__title, .price__product {
+  font-size: 28px;
+  font-weight: 400;
+  color: #969693;
+  font-family: 'robotothin',Tohoma, sans-serif;
+}
+
+.haeder__pic {
+  width: 378px;
+  height: 441px;
+  margin-left: 150px;
+}
+
+.header__product {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.header__rigth {
+  background: url("/img/foto/bagroud/nav-bg.jpg") 0 no-repeat;
+}
+
+.header__bottom-rigth {
+  margin-right: 56px;
+}
+
+.avatar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.avatar__inner {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 63px;
+  height: 63px;
+  margin-bottom: 10px;
+}
+
+.avatar__pic {
+  width: 105px;
+  height: 105px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.avatar__title {
+  font-size: 16px;
+  font-family: 'robotobold', Tohoma, sans-serif;
+  font-weight: bold;
+  color: #adada7;
+}
+
+.header__title-middle {
+  width: 325px;
+}
+
+.title {
+  width: 325px;
+  text-align: center;
+  font-size: 56px;
+  font-family: 'robotothin',Tohoma, sans-serif;
+  font-weight: 400;
+  line-height: 58.94px;
 }
 /*# sourceMappingURL=main.css.map */
