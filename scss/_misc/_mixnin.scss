@@ -20,9 +20,9 @@
 }
 
 // на шрифт 
-@mixin roboto($style: regular) {
-    @if $style == regular {
-        font-family: 'robotoregular',Tohoma, sans-serif;
+@mixin roboto($style: thin) {
+    @if $style == thin {
+        font-family: 'robotothin',Tohoma, sans-serif;
     }
 
     @if $style == bold {
@@ -35,11 +35,6 @@
         font-weight: 300;
     }
 
-    @if $style == medium {
-        font-family: 'robotomedium',Tohoma,sans-serif;
-    }
-    @if $style == ligthitalic {
-        font-family: 'robotoitalic',Tohoma,sans-serif;
-    }
+   
 }
 
