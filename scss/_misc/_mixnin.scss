@@ -20,26 +20,26 @@
 }
 
 // на шрифт 
-@mixin helvetica($style: regular) {
+@mixin roboto($style: regular) {
     @if $style == regular {
-        font-family: 'freeregular',Arial, sans-serif;
+        font-family: 'robotoregular',Tohoma, sans-serif;
     }
 
     @if $style == bold {
-        font-family: 'helvetica-bold', Arial, sans-serif;
+        font-family: 'robotobold', Tohoma, sans-serif;
         font-weight: bold;
     }
 
     @if $style == light {
-        font-family: 'helvetic-light',Arial,sans-serif;
+        font-family: 'robotolight',Tohoma,sans-serif;
         font-weight: 300;
     }
 
     @if $style == medium {
-        font-family: 'helvetic-medium',Arial,sans-serif;
+        font-family: 'robotomedium',Tohoma,sans-serif;
     }
-    @if $style == roman {
-        font-family: 'helveti-roman',Arial,sans-serif;
+    @if $style == ligthitalic {
+        font-family: 'robotoitalic',Tohoma,sans-serif;
     }
 }
 
