@@ -39,18 +39,18 @@ ul {
     margin: 0 auto;
     width: $conteiner-min-width;
 }
+// Прибитие футера статической верстки
+// .wrapper {
+//     overflow: hidden;
+//     min-width: $conteiner-min-width+20px;
+//     min-height: 100%;
+// }
 
-.wrapper {
-    overflow: hidden;
-    min-width: $conteiner-min-width+20px;
-    min-height: 100%;
-}
-// для статической верстки
-.wrapper:after{
-    content: "";
-    display: block;
-    height: $footer-heigth;
-}
+// .wrapper:after{
+//     content: "";
+//     display: block;
+//     height: $footer-heigth;
+// }
 
 // .clearfix:after {
 //     content: "";
@@ -58,10 +58,25 @@ ul {
 //     clear: both;
 // }
 
-.footer {
-background-color: $footer-color;
-height: $footer-heigth;
-margin-top: -$footer-heigth;
-min-width: $conteiner-min-width+20px;
-}
+// .footer {
+// background-color: $footer-color;
+// height: $footer-heigth;
+// margin-top: -$footer-heigth;
+// min-width: $conteiner-min-width+20px;
+// }
 
+// ПРИБИТИЕ ФУТЕРА НА ФЛЕКСАХ
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
+    min-width: $conteiner-min-width+20px;
+}
+.footer {
+    height: $footer-heigth;
+    background-color: $footer-color;
+    margin-top: auto;
+    min-width: $conteiner-min-width+20px;
+}

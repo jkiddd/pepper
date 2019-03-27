@@ -413,21 +413,22 @@ ul {
 }
 
 .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
   overflow: hidden;
   min-width: 1480px;
-  min-height: 100%;
-}
-
-.wrapper:after {
-  content: "";
-  display: block;
-  height: 345px;
 }
 
 .footer {
-  background-color: #1a1918;
   height: 345px;
-  margin-top: -345px;
+  background-color: #1a1918;
+  margin-top: auto;
   min-width: 1480px;
 }
 
