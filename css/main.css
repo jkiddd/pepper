@@ -443,7 +443,7 @@ ul {
   position: relative;
 }
 
-.header__triangle {
+.header__triangle-inner {
   position: absolute;
   width: 0;
   height: 0;
@@ -452,6 +452,22 @@ ul {
   border-right: 170px solid transparent;
   border-top: 284px solid rgba(249, 195, 74, 0.7);
   z-index: 5;
+}
+
+.header__triangle-pic {
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.header__triangle-icon::before {
+  content: "";
+  background: url("/img/decor/arrow-left.png") 0 no-repeat;
+  position: absolute;
+  width: 7px;
+  height: 14px;
+  display: block;
 }
 
 .header__left {
