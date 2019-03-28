@@ -543,10 +543,118 @@ ul {
   font-size: 56px;
   font-family: 'robotothin',Tohoma, sans-serif;
   font-weight: 400;
-  line-height: 58.94px;
+  line-height: 58px;
+}
+
+.title .new__line {
+  text-align: center;
+  font-size: 56px;
+  line-height: 58px;
+  display: block;
 }
 
 .header__rigth {
   background: url("/img/foto/bagroud/nav-bg.jpg") 0 no-repeat;
+  position: relative;
+  z-index: 0;
+}
+
+.bg__fon--blue::before {
+  content: '';
+  display: block;
+  top: 0;
+  right: 0;
+  position: absolute;
+  background-color: rgba(23, 35, 57, 0.9);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.nav {
+  padding-top: 80px;
+  position: relative;
+}
+
+.nav__icon-menu {
+  position: absolute;
+  -webkit-transform: translateX(-69px);
+      -ms-transform: translateX(-69px);
+          transform: translateX(-69px);
+}
+
+.nav__icon-item {
+  width: 70px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2px;
+}
+
+.nav__icon-item:hover {
+  background-color: #86d8cd;
+}
+
+.nav__icon-activ {
+  background-color: #86d8cd;
+}
+
+.nav__title {
+  font-size: 18px;
+  color: #979797;
+  padding-left: 34px;
+  padding-bottom: 36px;
+  text-transform: uppercase;
+}
+
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav__item {
+  -ms-flex-preferred-size: 45%;
+      flex-basis: 45%;
+  padding-bottom: 52px;
+}
+
+.nav__title-icon {
+  font-size: 16px;
+  color: #3ab3a6;
+  text-transform: uppercase;
+}
+
+.nav__pic {
+  width: 50px;
+  height: 43px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.nav__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=main.css.map */
