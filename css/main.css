@@ -730,4 +730,29 @@ ul {
       -ms-transform: rotate(-45deg);
           transform: rotate(-45deg);
 }
+
+.tea__wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tea__left {
+  float: left;
+  width: 30%;
+  background-color: #7dd5c9;
+}
+
+.tea__icon-pic {
+  background: url("/img/icons/page/Tea_Pots.png") 0 no-repeat;
+  width: 128px;
+  height: 79px;
+  display: block;
+}
+
+.tea__rigth {
+  width: 70%;
+  height: 100px;
+  background-color: #ce0c0c;
+}
 /*# sourceMappingURL=main.css.map */
