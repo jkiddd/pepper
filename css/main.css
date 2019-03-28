@@ -440,6 +440,18 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
+}
+
+.header__triangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 10%;
+  border-left: 170px solid transparent;
+  border-right: 170px solid transparent;
+  border-top: 284px solid rgba(249, 195, 74, 0.7);
+  z-index: 5;
 }
 
 .header__left {

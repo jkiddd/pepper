@@ -3,7 +3,31 @@
 }
 .header__wrapper {
   display: flex;
+  position: relative;
+    
+  }
+.header__triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 10%;
+    border-left: 170px solid transparent;
+    border-right: 170px solid transparent;
+    border-top: 284px solid rgba(#f9c34a, 0.7);
+    z-index: 5;
+      // &::after {
+      //   content: "";
+      //   position: absolute;
+      //   background: url("/img/icons/page/pepper_icon.png");
+      //   width: 25px;
+      //   height: 52px; 
+      //   display: block;
+      // }
 }
+.header__triangle-icon {
+  
+}
+
 .header__left {
   width: 82%;
   // padding-bottom: 76px;
