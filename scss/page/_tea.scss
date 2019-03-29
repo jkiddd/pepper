@@ -1,9 +1,118 @@
 
-.tea {  
-  height: 300px;
-  background:url("/img/decor/bg.png"), url("/img/decor/bg2.png");
-  background-position: left center, right center;
-  background-size: 30%, cover;
-  background-repeat: repeat-y, no-repeat;
+// .tea {  
+//   padding-top:117px;
+//   padding-bottom: 100px;
+//   background: #f5f5f5 url("/img/decor/bg.png");
+//   background-position: left , right ;
+//   background-size:  30%, 71%;
+//   background-repeat: repeat-y, no-repeat;
+//   position: relative;  
+// } 
 
-} 
+// .tea {
+//   background-color:#f5f5f5;
+//   padding-top:117px;
+//   padding-bottom: 100px; 
+// }
+
+// .tea {
+//   padding-top:117px;
+//   padding-bottom: 100px;
+  
+// }
+
+// .tea__left {
+//   width: 30%;
+  
+// } 
+// .tea__left-pic {
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%,-50%);
+// }
+// .tea__left-icon {
+//   background: url("/img/icons/page/Tea_Pots.png") 0 no-repeat;
+//   width: 128px;
+//   height: 79px;
+//   display: block; 
+// }
+// .tea {
+//   height: 300px;
+//   background-color: #f5f5f5;
+//   padding: 50px 0;
+//   position: relative;
+
+// }
+
+// .tea__block {
+//   width: 70%;
+  
+// }
+
+.tea {
+  display: flex;
+  background: #f5f5f5;
+}
+.tea__left {
+  width: 30%;
+}
+.tea__left-pic {
+  position: relative; 
+}
+.tea__left-img {
+  width: 83%; 
+  display: block;
+  
+}
+.tea__left-inner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tea__left-desc {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.tea__left-icon {
+  background: url("/img/icons/page/Tea_Pots.png") 0 no-repeat;
+  width: 128px;
+  height: 79px;
+  display: block;
+  margin-bottom: 40px;
+ 
+}
+.tea__left-text {
+  text-align: center;
+}
+.tea__left-title {
+  text-transform: uppercase;
+  color: #266258;
+  font-size: 21px;
+  font-weight: 300;
+}
+.tea__left-subtitle {
+  color: #438a7e; 
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.tea__rigth {
+  width: 70%;
+  position: relative;  
+}
+.add {
+  color: #c5c5c5;
+  font-size: 19px;
+  text-transform: uppercase;
+  &::before {
+    content: "";
+    background: url("/img/decor/heart_gray.png") 0 no-repeat;
+    width: 16px;
+    height: 17px;
+    display: inline-flex;
+    margin-top: 42px;
+  } 
+}
