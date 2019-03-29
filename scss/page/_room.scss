@@ -1,0 +1,31 @@
+.room {
+  background: url("/img/foto/bagroud/room-bg.jpg") 0 no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.room__icon {
+  background: url("/img/decor/gray.png") 0 no-repeat;
+  width: 32px;
+  height: 26px;
+  display: block;
+  margin-bottom: 10px;
+}
+.room__wrapper {
+  padding: 80px 0;
+  margin-left: 30%;
+}
+.room__inner {
+  width: 161px;
+  height: 161px;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.room__text-tile {
+  font-size: 17px;
+ 
+}
