@@ -58,28 +58,33 @@
   display: flex;
 }
 .tea__left {
-  width: 30%;
+  width: 25%;
 }
-.tea__left-pic {
-  position: relative; 
-}
-.tea__left-img {
-  width: 83%; 
-  display: block;
+.gear__block{
+  position: relative;
+  background: url("/img/decor/trag.png") right repeat-y;
+  background-color: #7dd5c9;
+
   
 }
-.tea__left-inner{
+.gear__left-img {
+  width: 370px;
+  height: 370px;
+  display: block;  
+  
+}
+.gear__left-inner{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.tea__left-desc {
+.gear__left-desc {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
 }
-.tea__left-icon {
+.gear__left-icon {
   background: url("/img/icons/page/Tea_Pots.png") 0 no-repeat;
   width: 128px;
   height: 79px;
@@ -87,23 +92,24 @@
   margin-bottom: 40px;
  
 }
-.tea__left-text {
+.gear__left-text {
   text-align: center;
 }
-.tea__left-title {
+.gear__left-title {
   text-transform: uppercase;
   color: #266258;
   font-size: 21px;
   font-weight: 300;
 }
-.tea__left-subtitle {
+.gear__left-subtitle {
   color: #438a7e; 
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
 }
 .tea__rigth {  
-  width: 70%;
+  width: 75%;
+  margin-left: 40px;
   position: relative; 
     &::after {
       content: "";

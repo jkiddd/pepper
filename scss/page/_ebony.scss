@@ -1,0 +1,46 @@
+.ebony {
+  background: #f5f5f5;
+}
+.ebony__wrapper {
+  display: flex;
+}
+.ebony__left {
+  width: 70%;
+  position: relative;
+}
+
+.ebony__left-pic {
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+}
+.ebony__left-img {
+  width: 255px;
+  height: 241px;
+  display: block;
+  object-fit: cover;
+}
+.add--heart {
+  &::before {
+    content: "";
+    background: url("/img/decor/heart_gray_red.png") 0 no-repeat;
+  }
+}
+.ebony__left-desc {
+  position: absolute;
+  right: -10%;
+  top: 10%;
+}
+.ebony__rigth {
+  width: 30%;
+  
+}
+.ebony--pic {
+  background: url("/img/decor/trag2.png") left repeat-y;
+  background-color: #bfe79e;
+}
+.ebony--icon {
+  background: url("/img/icons/page/shaker.png") 0 no-repeat;
+  width: 48px;
+  height: 110px;
+}
