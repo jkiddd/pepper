@@ -1,0 +1,23 @@
+.basics {
+  background: #ffffff;
+  position: relative;
+}
+.basics__wrapper {
+  display: flex;
+}
+.basics__left {
+  width: 25%;
+}
+.basics--pic {
+  background: url("/img/decor/trag3.png") right repeat-y;
+  background-color: #f8c255;
+}
+.basics--icon {
+  background: url("/img/icons/page/authentic.png") 0 no-repeat;
+  width: 118px;
+  height: 115px; 
+}
+.basics__rigth {
+  width: 75%;
+  position: relative;
+}
