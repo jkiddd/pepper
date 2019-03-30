@@ -28,12 +28,16 @@
 }
 .ebony__left-desc {
   position: absolute;
-  right: -10%;
+  right: 0%;
   top: 10%;
+  margin-right: 15px;
 }
 .ebony__rigth {
-  width: 25%;
-  
+  width: 25%;  
+}
+.block--height {
+  width: 415px;
+  height: 238px;  
 }
 .ebony--pic {
   background: url("/img/decor/trag2.png") left repeat-y;
