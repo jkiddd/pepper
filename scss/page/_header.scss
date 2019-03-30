@@ -36,7 +36,8 @@
     // transform: translate(-21%,-14%);
     // z-index: 6;   
     position: absolute;
-    top:-202px; 
+    top:-202px;
+    left: -20px; 
 }
 .header__triangle-icon {
   &::before {
@@ -47,7 +48,7 @@
     height: 14px;
     display: block;    
     top: -179px;
-    left: -23px;
+    left: -45px;
   }
   &::after {
     content: "";
@@ -57,7 +58,7 @@
     height: 14px;
     display: block;    
     top: -179px;
-    right: -44px;
+    right: -31px;
 }
   
 }
