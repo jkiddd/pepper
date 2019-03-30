@@ -1080,9 +1080,15 @@ ul {
           align-items: flex-end;
 }
 
+.logo__wrapper {
+  text-align: center;
+  width: 26%;
+}
+
 .logo__title {
   color: #a7a2a2;
   font-size: 30px;
   font-weight: 300;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
