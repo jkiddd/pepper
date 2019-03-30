@@ -73,6 +73,7 @@ ul {
     min-height: 100vh;
     overflow: hidden;
     min-width: $conteiner-min-width+20px;
+    position: relative;
 }
 .footer {
     height: $footer-heigth;
