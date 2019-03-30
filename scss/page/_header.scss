@@ -14,27 +14,9 @@
     border-left: 170px solid transparent;
     border-right: 170px solid transparent;
     border-top: 284px solid rgba(#f9c34a, 0.7);
-    z-index: 5;
-    
-      // &::after {
-      //   content: "";
-      //   position: absolute;
-      //   background: url("/img/icons/page/pepper_icon.png");
-      //   width: 25px;
-      //   height: 52px; 
-      //   display: block;
-      // }
+    z-index: 5;    
 }
-.header__triangle-pic {
-    // position: absolute;
-    // background: url("/img/icons/page/pepper_icon.png") 0 no-repeat;
-    // width: 25px;
-    // height: 52px; 
-    // display: block;
-    // left: 21%;
-    // top: 14%;
-    // transform: translate(-21%,-14%);
-    // z-index: 6;   
+.header__triangle-pic {   
     position: absolute;
     top:-202px;
     left: -20px; 
