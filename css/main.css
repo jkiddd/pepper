@@ -456,9 +456,7 @@ ul {
 
 .header__triangle-pic {
   position: absolute;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+  top: -202px;
 }
 
 .header__triangle-icon::before {
@@ -468,6 +466,19 @@ ul {
   width: 7px;
   height: 14px;
   display: block;
+  top: -179px;
+  left: -23px;
+}
+
+.header__triangle-icon::after {
+  content: "";
+  background: url("/img/decor/arrow-rigth.png") 0 no-repeat;
+  position: absolute;
+  width: 7px;
+  height: 14px;
+  display: block;
+  top: -179px;
+  right: -44px;
 }
 
 .header__left {

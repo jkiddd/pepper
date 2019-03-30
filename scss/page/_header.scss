@@ -15,6 +15,7 @@
     border-right: 170px solid transparent;
     border-top: 284px solid rgba(#f9c34a, 0.7);
     z-index: 5;
+    
       // &::after {
       //   content: "";
       //   position: absolute;
@@ -35,7 +36,7 @@
     // transform: translate(-21%,-14%);
     // z-index: 6;   
     position: absolute;
-    transform: translateY(-50%)  
+    top:-202px; 
 }
 .header__triangle-icon {
   &::before {
@@ -44,9 +45,21 @@
     position: absolute;
     width: 7px;
     height: 14px;
-    display: block;
+    display: block;    
+    top: -179px;
+    left: -23px;
   }
-    
+  &::after {
+    content: "";
+    background: url("/img/decor/arrow-rigth.png") 0 no-repeat;
+    position: absolute;
+    width: 7px;
+    height: 14px;
+    display: block;    
+    top: -179px;
+    right: -44px;
+}
+  
 }
 .header__left {
   width: 82%;
