@@ -966,8 +966,13 @@ ul {
 }
 
 .block--height {
-  width: 415px;
-  height: 238px;
+  width: 425px;
+  height: 135px;
+}
+
+.block--height-pic {
+  width: 390px;
+  height: 390px;
 }
 
 .ebony--pic {
