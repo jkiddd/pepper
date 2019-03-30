@@ -173,10 +173,7 @@
    transform: translateX(100%);
    transition: 0.5s;
    z-index: 999;
- }
- .content_active {
-  // transform: translateX(30%);
- }
+ } 
  .menu_active {
   transform: translateX(0%);
  }
@@ -195,10 +192,7 @@
     }
 }
 .nav {
-  padding-top: 80px;
-  
-  
-  
+  padding-top: 80px;   
 }
 .nav__icon-menu {
   position: absolute;
